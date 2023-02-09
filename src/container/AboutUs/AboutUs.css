@@ -1,0 +1,156 @@
+.app__aboutus{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 6rem;
+}
+
+
+{/*This will allow us to move the overlay around*/}
+
+.app__aboutus-overlay{
+    position:absolute;
+    inset:0;
+}
+
+.app__aboutus-overlay img{
+    width:391px;
+    height:415px;
+    z-index:0;
+}
+
+.app__aboutus-content
+{
+    display: flex;
+    width:100%;
+    z-index:2;
+    flex-direction: row;    
+}
+
+.spoon_history{
+    transform: scaleX(-1);
+}
+
+.app__aboutus-content_about{
+    flex:1;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    text-transform:none;
+    margin-bottom: 2rem;
+}
+
+.aboutus-imageContainer{
+    margin-top: 6rem;
+    width:400px;
+}
+
+.aboutus1-imageContainer{
+    margin-top: 6rem;
+    width:400px;
+}
+
+.aboutus-imageContainer img{
+    width:100%;
+    border-radius: 10%;
+}
+
+.aboutus1-imageContainer img{
+    width:100%;
+    border-radius: 10%;
+}
+.app__aboutus-content_knife{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    margin: 0rem 4rem;
+}
+
+.app__aboutus-content_history{
+    flex:1;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    text-transform:none;
+}
+
+.app__aboutus-content_about p{
+    margin :1rem 0rem;
+}
+
+.app__aboutus-content_history p{
+    margin :1rem 0rem;
+}
+
+@media screen and (max-width:2000px)
+{
+    .app__aboutus-content_knife img{
+        height:1110px;
+    }
+
+    .app__aboutus-content_about p{
+        margin :4rem 0rem;
+    }
+
+    .app__aboutus-content_history p{
+        margin :4rem 0rem;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    .app__aboutus-content{
+        flex-direction: column;
+    }
+
+    .app__aboutus-content_knife{
+        margin: 4rem 0rem;
+    }
+}
+
+@media screen and (max-width:650px)
+{
+    .app__aboutus{
+        padding: 1rem 2rem;
+    }
+    .app__aboutus-content_knife{
+        display: none;
+    }
+    .app__aboutus-content_knife img{
+        display: none;
+    }
+    .aboutus-imageContainer{
+        display: none;
+        margin-top: 2rem;
+        width:200px;
+    }
+    .aboutus-imageContainer img{
+        width:100%;
+        display:none;
+    }
+
+    .aboutus1-imageContainer{
+        margin-top: 2rem;
+        width:200px;
+    }
+    .aboutus1-imageContainer img{
+        width:100%;
+    }
+
+    .app__aboutus-overlay img{
+        width:80%;
+        height:320px;
+    }
+    .app__aboutus-content_about p{
+        margin :0rem 0rem;
+    }
+
+    .app__aboutus-content_history p{
+        margin :0rem 0rem;
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "short_name": "Restaurant Website",
+  "name": "Grand Fiesta 81 ",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "75x45 50x30 25x15",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "250x150"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "500x300"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
