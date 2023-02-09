@@ -10,7 +10,7 @@ const Header = () => (
 
   <div className="app__header" id="home">
     <div className='app__wrapper_info'>
-      <SubHeading title="Chase the new flavour"/ > 
+      <SubHeading title="Chase the newest flavour"/ > 
       {/*The title is being dynamically passes to SubHeading*/}
       <h1 className="app__header-h1">Beyond the boundaries of taste</h1>  
       <p className="p__cormorant" style={{margin:'1rem 0rem'}}>Faridabad's Best Rooftop Restaurant and Banquet </p>
